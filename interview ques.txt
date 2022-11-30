@@ -1,0 +1,397 @@
+1. What is an API?
+An API (Application Programming Interface) is a software intermediary that enables two applications to communicate with each other. It comprises a number of subroutine definitions, logs, and tools for creating application software.
+
+In an API testing interview, you could be asked to give some API examples, here are the well-known ones: Google Maps API, Amazon Advertising API, Twitter API, YouTube API, etc.
+
+2. What are main differences between API and Web Service?
+All Web services are APIs but not all APIs are Web services.
+Web services might not contain all the specifications and cannot perform all the tasks that APIs would perform.
+A Web service uses only three styles of use: SOAP, REST and XML-RPC for communication whereas API may be exposed to in multiple ways.
+A Web service always needs a network to operate while APIs don’t need a network for operation.
+
+
+3. What are the Limits of API Usage?
+Many APIs have a certain limit set up by the provider. Thus, try to estimate your usage and understand how that will impact the overall cost of the offering. Whether this will be a problem depends in large part on how data is leveraged. Getting caught by a quota and effectively cut-off because of budget limitations will render the service (and any system or process depending on it) virtually useless.
+
+Creating an API (Common Web API Testing interview questions)
+
+
+4. What are some architectural styles for creating a Web API?
+This is one of the fundamental Web API interview questions. Bellows are four common Web API architectural styles:
+
+HTTP for client-server communication
+XML/JSON as formatting language
+Simple URI as the address for the services
+Stateless communication
+
+
+
+5. Who can use a Web API?
+Web API can be consumed by any clients which support HTTP verbs such as GET, PUT, DELETE, POST. Since Web API services do not require configuration, they can be easily used by any client. In fact, even portable devices such as mobile devices can easily use Web API, which is undoubtedly the biggest advantage of this technology.
+
+Testing an API – Top Web API Testing interview questions & answers
+
+
+6. What is API Testing?
+API testing is a kind of software testing that determines if the developed APIs meet expectations regarding the functionality, reliability, performance, and security of the application.
+
+7. What are the advantages of API Testing?  
+In an API interview, they are likely to ask about the advantages of API testing. So be prepared with the significant ones such as:
+
+Test for Core Functionality: API testing provides access to the application without a user interface. The core and code-level of functionalities of the application will be tested and evaluated early before the GUI tests. This will help detect the minor issues which can become bigger during the GUI testing.
+Time Effective: API testing usually is less time consuming than functional GUI testing. The web elements in GUI testing must be polled, which makes the testing process slower. Particularly, API test automation requires less code so it can provide better and faster test coverage compared to GUI test automation. These will result in the cost saving for the testing project.
+Language-Independent: In API testing, data is exchanged using XML or JSON. These transfer modes are completely language-independent, allowing users to select any code language when adopting automation testing services for the project.
+Easy Integration with GUI: API tests enable highly integrable tests, which is particularly useful if you want to perform functional GUI tests after API testing. For instance, simple integration would allow new user accounts to be created within the application before a GUI test started.
+
+8. Some common protocols used in API testing?
+Many protocols are now available to be used in API testing, such as JMS, REST, HTTP, UDDI and SOAP.
+
+9. What is the test environment of API?
+Setting up the API’s test environment is not an easy task, so you should have a ready answer if your API testing interview is coming. The test environment of API is a bit complete and requires the configuration of the database and server, depending on the software requirements. No GUI (Graphical User Interface) is available in this test form.
+
+When the installation process is complete, API is verified for the proper operation. Throughout the process, the API called from the original environment is set up with different parameters to study the test results.  
+
+10. What are principles of an API test design?
+The five most important principles of an API test design are:
+
+Setup: Create objects, start services, initialize data, etc
+Execution: Steps to apply API or the scenario, including logging
+Verification: Oracles to evaluate the result of the execution
+Reporting: Pass, failed or blocked
+Clean up: Pre-test state
+
+
+11. What are the common API testing types?
+While there are certainly specialty tests, and no list can be asked to be comprehensive in this realm, most tests fit broadly into these following nine categories that you should remember before attending in an API testing interview.
+
+Validation Testing
+Functional Testing
+UI testing
+Load testing
+Runtime/ Error Detection
+Security testing
+Penetration testing
+Fuzz testing
+Interoperability and WS Compliance testing
+
+
+12. What is the procedure to perform API testing?
+Choose the suite to add the API test case
+Choose the test development mode
+Demand the development of test cases for the required API methods
+Configure the control parameters of the application and then test conditions
+Configure method validation
+Execute the API test
+Check test reports and filter API test cases
+Arrange all API test cases
+
+
+13. What must be checked when performing API testing?
+During the API testing process, a request is raised to the API with the known data. This way you can analyze the validation response. While testing an API, you should consider:
+
+Accuracy of data
+Schema validation
+HTTP status codes
+Data type, validations, order and completeness
+Authorization checks
+Implementation of response timeout
+Error codes in case API returns, and
+Non-functional testing like performance and security testing
+
+
+14. What is the best approach method to perform API testing?
+The following factors should be considered when performing API testing:
+
+Defining the correct input parameters
+Verifying the calls of the mixture of two or more added value parameters
+Defining the basic functionality and scope of the API program
+Writing appropriate API test cases and making use of testing techniques such as equivalence class, boundary value, etc. to check the operability
+Testing case execution
+Comparing the test result with the expected result
+Verifying the API behavior under conditions such as connection to files and so on.
+
+
+15. What are tools could be used for API testing?
+There are myriad of different API testing tools available. A few of common tools are Katalon Studio, Postman, SoapUi Pro, Apigee, etc.  While doing Unit and API testing, both targets source code. If an API method uses code based in .NET then another supporting tool must have .NET.
+
+Learn more: SoapUI vs Postman, Katalon Studio: A Review of Top 3 API Tools
+
+
+
+ 
+
+16. What are differences between API Testing and Unit Testing?
+api testing vs unit testing
+
+17. What are differences between API Testing and UI Testing?
+API enables communication between two separate software systems. A software system implementing an API contains functions or subroutines that can be executed by another software system.
+On the other hand, UI ( User Interface) testing refers to testing graphical interface such as how users interact with the applications, testing application elements like fonts, images, layouts etc. UI testing basically focuses on look and feel of an application.
+
+
+18. What are major challenges faced in API testing?
+If you can overcome the challenges in API Testing, you can be confident in the API testing interview too. They are:
+
+Parameter Selection
+Parameter Combination
+Call sequencing
+Output verification and validation
+Another important challenge is providing input values, which is very difficult as GUI is not available in this case.
+
+
+19. What are the testing methods that come under API testing?
+One of the most common Web API testing interview questions is about the testing methods. They are:
+
+Unit testing and Functional testing
+Load testing to test the performance under load
+Discovery testing to list, create and delete the number of calls documented in API
+Usability and Reliability testing to get consistent results
+Security and Penetration testing to validate all types of authentication
+Automation testing to create and run scripts that require regular API calls
+End to end Integration and Web UI testing
+API documentation testing to determine its efficiency and effectiveness 
+
+Best functional testing tools in comparison | Katalon Platform
+
+
+20. Why is API testing considered as the most suitable form for Automation testing?
+API testing is now preferred over GUI testing and is considered as most suitable because:
+
+It verifies all the functional paths of the system under test very effectively.
+It provides the most stable interface.
+It is easier to maintain and provides fast feedback.
+
+
+21. What are common API errors that often founded?
+Not only API fundamental questions, the interviewer also determine your knowledge and experience by asking about the API errors in a Web API testing interview. So the most common ones are:
+
+Missing module errors
+Documentation errors
+Parameter validation errors
+And some standard error expectations as if the result is not so predicted then the occurrence of errors can be seen and for the same warnings are specified in the form of a message. There can be one or more warnings within an individual module.
+
+
+22. What kinds of bugs that API testing would often find?
+Missing or duplicate functionality
+Fails to handle error conditions gracefully
+Stress
+Reliability
+Security
+Unused flags
+Not implemented errors
+Inconsistent error handling
+Performance
+Multi-threading issues
+Improper errors
+Documenting the API (Common Web API Testing interview questions)
+
+
+23. What is API documentation?
+The API documentation is a complete, accurate technical writing giving instructions on how to effectively use and integrate with an API. It is a compact reference manual that has all the information needed to work with the API, and helps you answer all the API testing questions with details on functions, classes, return types, arguments, and also examples and tutorials.
+
+24. What are API documentation templates that are commonly used?
+There are several available API documentation templates help to make the entire process simple and straightforward, which could be  answered in your API testing interview, such as:
+
+Swagger
+Miredot
+Slate
+FlatDoc
+API blueprint
+RestDoc
+Web service API specification
+
+
+25. When writing API document, what must be considered?
+Source of the content
+Document plan or sketch
+Delivery layout
+Information needed for every function in the document
+Automatic document creation programs
+--------------------------------API INTERVIEW QUESTIONS----------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+
+1) Explain what is REST and RESTFUL?
+REST represents REpresentational State Transfer; it is a relatively new aspect of writing web API.
+RESTFUL is referred for web services written by applying REST architectural concept are called
+RESTful services, it focuses on system resources and how state of resource should be transported
+over HTTP protocol to different clients written in different language. In RESTFUL web service HTTP
+methods like GET, POST, PUT and DELETE can be used to perform CRUD operations.
+
+
+2) Explain the architectural style for creating web API?
+The architectural style for creating web api are
+• HTTP for client server communication
+• XML/JSON as formatting language
+• Simple URI as the address for the services
+• Stateless communication
+
+
+3) Mention what tools are required to test your web API?
+SOAPUI tool for SOAP WS and Firefox “poster” plugin for RESTFUL services.
+
+4) Mention what are the HTTP methods supported by REST?
+HTTP methods supported by REST are:
+• GET: It requests a resource at the request URL. It should not contain a request body as it
+will be discarded. Maybe it can be cached locally or on the server.
+• POST: It submits information to the service for processing; it should typically return the
+modified or new resource
+• PUT: At the request URL it update the resource
+• DELETE: At the request URL it removes the resource
+• OPTIONS: It indicates which techniques are supported
+• HEAD: About the request URL it returns meta information
+
+
+5) Mention whether you can use GET request instead of PUT to create a resource?
+No, you are not supposed to use POST or GET. GET operations should only have view rights
+
+
+6) Mention what are resources in a REST architecture?
+Resources are identified by logical URLs; it is the key element of a RESTful design. Unlike, SOAP
+web services in REST, you view the product data as a resource and this resource should contain all
+the required information.
+https://www.guru99.com
+---------------------------------------------------------------------------------------------------------------------------------------------
+7) Mention what is the difference between AJAX and REST?
+ AJAX REST
+• In Ajax, the request are sent to
+the server by using
+XMLHttpRequest objects. The
+response is used by the
+JavaScript code to dynamically
+alter the current page
+• Ajax is a set of technology; it is a
+technique of dynamically
+updating parts of UI without
+having to reload the page
+• Ajax eliminates the interaction
+between the customer and
+server asynchronously
+• REST requires the interaction
+between the customer and
+server
+• REST have a URL structure and a
+request/response pattern the
+revolve around the use of
+resources
+• REST is a type of software
+architecture and a method for
+users to request data or
+information from servers
+• REST requires the interaction
+between the customer and
+server
+
+
+7) Mention some key characteristics of REST?
+Some key characteristics of REST includes
+• REST is stateless, therefore the SERVER has no state (or session data)
+• With a well-applied REST API, the server could be restarted between two calls as every data
+is passed to the server
+• Web service mostly uses POST method to make operations, whereas REST uses GET to
+access resources
+
+
+8) Mention what are the different application integration styles?
+The different integration styles include
+• Shared database
+• Batch file transfer
+• Invoking remote procedure (RPC)
+• Swapping asynchronous messages over a message oriented middle-ware (MOM)
+
+
+9) Explain how JAXB related to RESTful web API?
+JAXB stands for java arch for XML binding.
+https://www.guru99.com
+---------------------------------------------------------------------------------------------------------------------------------------------
+10) Mention what is the difference between PUT and POST?
+“PUT” puts a file or resource at a particular URI and exactly at that URI. If there is already a file or
+resource at that URI, PUT changes that file or resource. If there is no resource or file there, PUT
+makes one
+POST sends data to a particular URI and expects the resource at that URI to deal with the request.
+The web server at this point can decide what to do with the data in the context of specified
+resource
+PUT is idempotent meaning, invoking it any number of times will not have an impact on resources.
+However, POST is not idempotent, meaning if you invoke POST multiple times it keeps creating
+more resources
+
+11) Mention which markup language can be used in restful web api?
+JSON and XML are the two markup language that can be used in restful web api
+
+
+12) Mention what is the difference between RPC or document style web services? How you
+determine to which one to choose?
+In document style web services, we can transport an XML message as part of SOAP request which
+is not possible in RPC style web service. Document style web service is most appropriate in some
+application where XML message behaves as document and content of that document can alter
+and intention of web service does not rely on the content of XML message.
+
+
+13) Mention what is JAX-WS and JAX-RS?
+Both JAX-WS and JAX-RS are libraries (APIs) for doing communication in various ways in Java. JAXWS is a library that can be used to do SOAP communication in JAVA, and JAX-RS lets you do the
+REST communication in JAVA.
+
+
+14) List out the tools or API for developing or testing web api?
+Testing tools for web services for REST APIs includes
+• Spring REST web service using MVC
+• Jersey API
+• CFX
+• Axis
+• Restlet,
+https://www.guru99.com
+---------------------------------------------------------------------------------------------------------------------------------------------
+15) Mention what is the difference between SOAP and REST?
+SOAP REST
+• SOAP is a protocol through which
+two computer communicates by
+sharing XML document
+• SOAP permits only XML
+• SOAP based reads cannot be
+cached
+• SOAP is like custom desktop
+application, closely connected to
+the server
+• SOAP is slower than REST
+• It runs on HTTP but envelopes
+the message
+• Rest is a service architecture and
+design for network-based
+software architectures
+• REST supports many different
+data formats
+• REST reads can be cached
+• A REST client is more like a
+browser; it knows how to
+standardized methods and an
+application has to fit inside it
+• REST is faster than SOAP
+• It uses the HTTP headers to hold
+meta information
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
